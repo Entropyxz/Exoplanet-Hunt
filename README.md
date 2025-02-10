@@ -2,7 +2,7 @@
 
 ## Project Summary
 
-In this project, we aimed to detect exoplanets (or "exostars") using flux measurements from the Kepler Space Telescope. Our goal was to classify stars based on their light curves—specifically, to distinguish between stars that host exoplanets and those that do not. Given the severe imbalance in the dataset (with very few exoplanet-hosting stars), we experimented with several machine learning models and resampling techniques to improve detection.
+In this project, the aim is to detect exoplanets (or "exostars") using flux measurements from the Kepler Space Telescope. Our goal was to classify stars based on their light curves—specifically, to distinguish between stars that host exoplanets and those that do not. Given the severe imbalance in the dataset (with very few exoplanet-hosting stars), we experimented with several machine learning models and resampling techniques to improve detection.
 
 Our modeling pipeline began with a baseline logistic regression and advanced through a neural network. These models were compared using metrics such as precision, recall, F1-score, and ROC-AUC, with particular focus on detecting the rare exoplanet instances.
 
